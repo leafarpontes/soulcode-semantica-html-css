@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página com semântica</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        body {
+            margin: 0;
+        }
+
+        ul {
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: azure;
+            justify-content: center;
+            align-items: center;
+            font-family: "Palatino Linotype", serif;
+            font-size: 2.3em;
+            font-weight: 800;
+        }
+
+        .header-footer {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: beige;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+
+        .header-footer li {
+            display: inline-block;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-family: "Palatino Linotype", serif;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        #footer {
+            background-color: lightsteelblue;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.90em;
+        }
+
+        article {
+            padding: 20px;
+        }
+
+        #post-1 {
+            background-color: honeydew;
+        }
+        #post-2 {
+            background-color: lightblue;
+        }
+
+        aside {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: plum;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://logosmarcas.net/wp-content/uploads/2020/08/Google-Chrome-Logo.png" alt="chrome logo"
+            height="100px">
+        <p>Chrome Web Blog</p>
+    </header>
+    <nav class="header-footer">
+        <ul type="none">
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Trabalhe conosco</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article id="post-1">
+                <h3>Artigo 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis corrupti, totam laboriosam vitae obcaecati, labore id veniam, eos distinctio voluptatem nobis quo aspernatur. Non delectus porro eius? Minima inventore at amet, quo aliquid dicta suscipit nesciunt praesentium esse dolorum magnam. Est ex distinctio odio unde possimus quae, numquam magnam quisquam, corrupti dignissimos nihil laboriosam facere eveniet ea. Expedita delectus vitae est quod quis in. Voluptas, alias illum quaerat in illo sit eum amet consectetur reprehenderit autem, rem aliquid quidem totam ratione minus aspernatur iusto voluptatem modi architecto facere temporibus, odit expedita! Aut, totam amet! Voluptatum animi consequatur laboriosam praesentium nulla.</p>
+            </article>
+            <article id="post-2">
+                <h3>Artigo 2</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi ab assumenda aspernatur quidem quae ipsa veritatis sequi est, doloremque labore. Exercitationem, facere ipsam natus libero ad praesentium? Ex veritatis, blanditiis optio quo quos culpa similique dolores voluptas aut nesciunt tempore nemo fugiat? Nostrum, quidem corporis nobis soluta sequi iste magnam, veritatis, quia voluptatem a modi nisi. Iste tempore ullam laudantium ratione, facilis tempora officiis veniam dolore quia corporis explicabo, debitis dolorum? Deserunt, unde! Beatae laboriosam possimus facilis doloremque blanditiis assumenda, voluptatibus consectetur molestias debitis doloribus voluptatem accusamus quis voluptates nostrum expedita magni ad deleniti velit dicta? Delectus corporis soluta ducimus officia placeat quia saepe, magni asperiores hic animi! Beatae eaque natus officiis tempora quidem vitae rem veniam! Illum, eligendi tempore.</p>
+            </article>
+        </section>
+        <aside>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tenetur delectus, fugit aut blanditiis veniam eaque. Nisi quo placeat eum sed in fugiat earum doloribus inventore corporis magnam. Error, eius!
+            </p>
+        </aside>
+    </main>
+    <footer class="header-footer" id="footer">
+        <ul type="none">
+            <li><a href="#">Mapa do site</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Termos de uso</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
